@@ -1,0 +1,22 @@
+DIFFERENT TYPES OF ROUTES
+
+
+there are 3 types of routes
+
+simple route
+default route
+root route
+
+
+
+default route structure:
+
+
+match ':controller(/:action(/:id))', :via => :get
+
+
+root route:
+root :to => "demo/index"
+OR
+root "demo/index"
+

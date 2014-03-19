@@ -1,12 +1,11 @@
 SimpleCms::Application.routes.draw do
-  get "subject/index"
-  get "subject/show"
-  get "subject/new"
-  get "subject/edit"
-  get "subject/delete"
-  #get "demo/index"
 
   root "demo#index"
+  
+  #get "demo/index"
+
+  
+  match ':controller(/:action(/:id))', :via => :get
 
   
 
@@ -70,5 +69,5 @@ SimpleCms::Application.routes.draw do
   #     resources :products
   #   end
 
-  match ':controller(/:action(/:id))', :via => :get
+  
 end
