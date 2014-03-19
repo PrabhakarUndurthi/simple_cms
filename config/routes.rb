@@ -1,5 +1,10 @@
 SimpleCms::Application.routes.draw do
 
+  get "sections/index"
+  get "sections/show"
+  get "sections/new"
+  get "sections/edit"
+  get "sections/delete"
   get "pages/index"
   get "pages/show"
   get "pages/new"
