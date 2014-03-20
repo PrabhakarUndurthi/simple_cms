@@ -21,7 +21,7 @@ def something
 
 	def lynda
 
-		redirect_to("http://lynda.com")
+		redirect_to("http://google.com")
 	end
 
 
@@ -32,5 +32,9 @@ def something
   def first
   	
   end
+
+  def text_helpers
+  end
+
 
 end
