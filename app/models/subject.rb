@@ -2,6 +2,8 @@ class Subject < ActiveRecord::Base
 
 	has_many :pages
 
+	validates_presence_of :screen
+
 
 	scope :visible, lambda { where(:visible => true)}
 	scope :invisible, lambda { where(:visible => false)}
