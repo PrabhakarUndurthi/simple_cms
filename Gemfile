@@ -34,7 +34,7 @@ end
 
 # Use ActiveModel has_secure_password
 # bcrypt is also another name for Blowfish Algorithm
-gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt-ruby', '~> 3.1.1.rc1'
 
 # Use unicorn as the app server
 # gem 'unicorn'
